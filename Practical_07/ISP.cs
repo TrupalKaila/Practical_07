@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practical_07
 {
+    //Created multiple small interface and avoiding fat interface, we can use only required interface for deriving any class 
     public interface ICreateDocument
     {
         void CreateDocument(string content);
